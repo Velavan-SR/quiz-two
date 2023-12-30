@@ -1,0 +1,84 @@
+#start{
+  height: 6vh;
+  width: 12vw;
+  background-color: rgb(10, 179, 6);
+  color: white;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#btn-container{
+  height: 40vh;
+  width: 60vw;
+  justify-content: center;
+  transform: translateY(45%);
+}
+
+#quiz,#result{
+  margin-top: 10vh;
+  height: 80vh;
+  width: 90vw;
+  background-color: white;
+  justify-content: space-around;
+}
+
+p{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#options{
+  width: 70vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.option{
+  height: 6vh;
+  width: 30vw;
+  background-color: rgb(30, 161, 241);
+  color: white;
+}
+
+#buttonspace{
+  width:30vw;
+  color: black;
+}
+
+#buttonspace button{
+  width: 7vw;
+}
+
+#result{
+  margin-top: 0;
+  height: 50vh;
+  width: 60vw;
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+
+#res-btns{
+  width: 20vw;
+}
+
+#list{
+  transform: translateY(-25%);
+}
